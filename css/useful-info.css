@@ -1,0 +1,73 @@
+.useful-info {
+    padding: 20px;
+    background-color: #f4f4f4; 
+    border-radius: 10px;
+    margin: 20px 0;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.useful-info h2 {
+    text-align: center;
+    font-size: 1.5em; 
+    color: var(--primary);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.info-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    gap: 10px;
+}
+
+.weather, .currency, .map {
+    width: 30%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather h3, .currency h3, .map h3 {
+    font-size: 1.2em; 
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+
+.weather p, .currency p {
+    font-size: 0.9em; 
+    color: var(--text-tertiary);
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.weather p i, .currency p i {
+    margin-right: 5px;
+}
+
+#map {
+    width: 100%;
+    height: 200px; 
+    border-radius: 5px;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    .info-grid {
+        flex-direction: column;
+    }
+
+    .weather, .currency, .map {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
