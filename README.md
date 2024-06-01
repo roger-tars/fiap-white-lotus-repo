@@ -23,18 +23,28 @@ Projeto criado para entrega de trabalho da FIAP. O site apresenta informações 
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
 - [Font Awesome](https://fontawesome.com/)
 
-## Como Executar o Projeto
-
-1. **Clone o Repositório:**
-
-    ```sh
-    git clone https://github.com/seu-usuario/white-lotus-hotel.git
-    cd white-lotus-hotel
-    ```
-
-2. **Abra o Arquivo `index.html` no Navegador:**
-
-    Navegue até o diretório do projeto e abra o arquivo `index.html` no seu navegador preferido.
-
 ## Estrutura de Arquivos
 
+white-lotus-hotel/
+│
+├── css/
+│ ├── style.css
+│ ├── landing.css
+│ ├── grid.css
+│ ├── reservation.css
+│ ├── form.css
+│ ├── footer.css
+│ └── useful-info.css
+│
+├── images/
+│ ├── cozinha.jpg
+│ ├── pool.jpg
+│ ├── bar.jpg
+│ ├── boat.jpg
+│ ├── quarto-piscina.jpg
+│ ├── visita.jpg
+│ ├── standard-room.jpg
+│ └── luxury-room.jpg
+│
+├── index.html
+└── README.md
