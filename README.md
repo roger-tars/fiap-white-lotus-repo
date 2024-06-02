@@ -21,4 +21,3 @@ Projeto criado para entrega de trabalho da FIAP. O site apresenta informações 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [Exchangerate API](https://www.exchangerate-api.com/)
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
-- [Font Awesome](https://fontawesome.com/)
