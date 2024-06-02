@@ -1,243 +1,258 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title>White Lotus Hotel</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <title>White Lotus Hotel</title>
 </head>
+
 <body>
 
-    <!-- landing -->
-    <div class="landing">
-        <div class="heading">
-            <h1>White Lotus Hotel</h1>
-            <h2>Taormina, Sicily</h2>
-            <br>
-            <p>Saiba mais sobre o hotel.</p>
-        </div>
+  <!-- landing -->
+  <div class="landing">
+    <div class="heading">
+      <h1>White Lotus Hotel</h1>
+      <h2>Taormina, Sicily</h2>
+      <br>
+      <p>Saiba mais sobre o hotel.</p>
     </div>
+  </div>
 
-    <!-- grid -->
-    <div class="grid">
-        <div class="img-wrapper">
-            <img class="blur" src="image/cozinha.jpg">
-            <div class="content fade">
-                <h1 class="title">Cozinha 5 estrelas</h1>
-                <p>Conheça o melhor da culinária italiana.</p>
-            </div>
-        </div>
-        <div class="img-wrapper">
-            <img class="blur" src="image/pool.jpg">
-            <div class="content fade">
-                <h1 class="title">Piscina</h1>
-                <p>Desfrute da piscina com vista privilegiada.</p>
-            </div>
-        </div>
-        <div class="img-wrapper">
-            <img class="blur" src="image/bar.jpg">
-            <div class="content fade">
-                <h1 class="title">Coquetelaria</h1>
-                <p>Eleito o melhor bar da Sicília.</p>
-            </div>
-        </div>
-        <div class="img-wrapper">
-            <img class="blur" src="image/boat.jpg">
-            <div class="content fade">
-                <h1 class="title">Passeios Exclusivos</h1>
-                <p>Escolha exclusiva entre os melhores passeios.</p>
-            </div>
-        </div>
-        <div class="img-wrapper">
-            <img class="blur" src="image/quarto-piscina.jpg">
-            <div class="content fade">
-                <h1 class="title">Piscina Privativa</h1>
-                <p>Quartos com piscina privativa.</p>
-            </div>
-        </div>
-        <div class="img-wrapper">
-            <img class="blur" src="image/visita.jpg">
-            <div class="content fade">
-                <h1 class="title">Visitas Guiadas</h1>
-                <p>Desfrute das visitas guiadas oferecidas pelo hotel.</p>
-            </div>
-        </div>
+  <!-- grid -->
+  <div class="grid">
+    <div class="img-wrapper">
+      <img class="blur" src="image/cozinha.jpg">
+      <div class="content fade">
+        <h1 class="title">Cozinha 5 estrelas</h1>
+        <p>Conheça o melhor da culinária italiana.</p>
+      </div>
     </div>
-
-    <!-- reservas -->
-    <div class="reservation">
-        <div class="reservation-content">
-            <h1>Reserve seu quarto</h1>
-            <form>
-                <div class="form-group">
-                    <label for="checkin">Data de Check-in</label>
-                    <input type="date" id="checkin" name="checkin" required>
-                </div>
-                <div class="form-group">
-                    <label for="checkout">Data de Check-out</label>
-                    <input type="date" id="checkout" name="checkout" required>
-                </div>
-                <div class="form-group">
-                    <label for="room-type">Tipo de Quarto</label>
-                    <select id="room-type" name="room-type" required>
-                        <option value="" disabled selected>Selecione um tipo de quarto</option>
-                        <option value="standard">Quarto Standard</option>
-                        <option value="luxury">Quarto Luxury</option>
-                    </select>
-                </div>
-                <input type="submit" class="btn" value="Verificar Disponibilidade">
-            </form>
-            <!-- quartos -->
-            <div class="room-gallery">
-                <div class="room" id="standard-room">
-                    <img src="image/standard-room.jpg" alt="Quarto Standard">
-                    <div class="room-info">
-                        <h2>Quarto Standard</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at ornare dui. In hac habitasse platea dictumst.</p>
-                    </div>
-                </div>
-                <div class="room" id="luxury-room">
-                    <img src="image/luxury-room.jpg" alt="Quarto Luxury">
-                    <div class="room-info">
-                        <h2>Quarto Luxury</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at ornare dui. In hac habitasse platea dictumst.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="img-wrapper">
+      <img class="blur" src="image/pool.jpg">
+      <div class="content fade">
+        <h1 class="title">Piscina</h1>
+        <p>Desfrute da piscina com vista privilegiada.</p>
+      </div>
     </div>
-
-
-    <!-- form -->
-    <div class="form">
-        <div class="form-container">
-            <div class="disclaimer">
-                <h1>Mais informações</h1>
-                <p class="about-event">
-                    Envie suas dúvidas ou sugestões <br>
-                    que entraremos em contato com você.
-                </p>
-            </div>
-            <div class="subscription-form">
-                <p>Preencha o formulário para receber mais detalhes sobre o hotel</p>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Nome</label>
-                        <input type="text" placeholder="Digite seu nome" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" placeholder="Digite seu e-mail" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefone</label>
-                        <input type="number" placeholder="(DDD) XXXXX-XXXX" min="0">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Mensagem</label>
-                        <textarea placeholder="Insira sua mensagem"></textarea>
-                    </div>
-                    <input type="submit" class="btn" value="Quero receber mais informações">
-                </form>
-            </div>
-        </div>
+    <div class="img-wrapper">
+      <img class="blur" src="image/bar.jpg">
+      <div class="content fade">
+        <h1 class="title">Coquetelaria</h1>
+        <p>Eleito o melhor bar da Sicília.</p>
+      </div>
     </div>
-
-    <!-- apis -->
-    <div class="useful-info" id="useful-info">
-        <h2>Informações Úteis</h2>
-        <div class="info-grid">
-            <div class="weather">
-                <h3><i class="fas fa-cloud-sun"></i> Clima Atual em Taormina</h3>
-                <img id="weather-icon" alt="Weather Icon" style="display: none;">
-                <p id="weather-description"><i class="fas fa-info-circle"></i> Carregando...</p>
-                <p id="temperature"><i class="fas fa-thermometer-half"></i> Carregando...</p>
-            </div>
-            <div class="currency">
-                <h3><i class="fas fa-money-bill-wave"></i> Taxa de Câmbio</h3>
-                <p id="currency-info"><i class="fas fa-info-circle"></i> Carregando...</p>
-            </div>
-            <div class="map">
-                <h3><i class="fas fa-map-marker-alt"></i> Localização do Hotel</h3>
-                <div id="map"></div>
-            </div>
-        </div>
+    <div class="img-wrapper">
+      <img class="blur" src="image/boat.jpg">
+      <div class="content fade">
+        <h1 class="title">Passeios Exclusivos</h1>
+        <p>Escolha exclusiva entre os melhores passeios.</p>
+      </div>
     </div>
+    <div class="img-wrapper">
+      <img class="blur" src="image/quarto-piscina.jpg">
+      <div class="content fade">
+        <h1 class="title">Piscina Privativa</h1>
+        <p>Quartos com piscina privativa.</p>
+      </div>
+    </div>
+    <div class="img-wrapper">
+      <img class="blur" src="image/visita.jpg">
+      <div class="content fade">
+        <h1 class="title">Visitas Guiadas</h1>
+        <p>Desfrute das visitas guiadas oferecidas pelo hotel.</p>
+      </div>
+    </div>
+  </div>
 
-    <!-- footer -->
-    <footer class="footer">
-        <div class="footer-links">
-            <a href="#">Terms and Conditions</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Cookies</a>
-            <a href="#">Complaints</a>
+  <!-- reservas -->
+  <div class="reservation">
+    <div class="reservation-content">
+      <h1>Reserve seu quarto</h1>
+      <form>
+        <div class="form-group">
+          <label for="checkin">Data de Check-in</label>
+          <input type="date" id="checkin" name="checkin" required>
         </div>
-        <p>© Copyright White Lotus - 2024</p>
-    </footer>
+        <div class="form-group">
+          <label for="checkout">Data de Check-out</label>
+          <input type="date" id="checkout" name="checkout" required>
+        </div>
+        <div class="form-group">
+          <label for="room-type">Tipo de Quarto</label>
+          <select id="room-type" name="room-type" required>
+            <option value="" disabled selected>Selecione um tipo de quarto</option>
+            <option value="standard">Quarto Standard</option>
+            <option value="luxury">Quarto Luxury</option>
+          </select>
+        </div>
+        <input type="submit" class="btn" value="Verificar Disponibilidade">
+      </form>
+      <!-- quartos -->
+      <div class="room-gallery">
+        <div class="room" id="standard-room">
+          <img src="image/standard-room.jpg" alt="Quarto Standard">
+          <div class="room-info">
+            <h2>Quarto Standard</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at ornare dui. In hac habitasse platea
+              dictumst.</p>
+          </div>
+        </div>
+        <div class="room" id="luxury-room">
+          <img src="image/luxury-room.jpg" alt="Quarto Luxury">
+          <div class="room-info">
+            <h2>Quarto Luxury</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at ornare dui. In hac habitasse platea
+              dictumst.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- apis -->
-    <script>
-        async function fetchWeather() {
-            const apiKey = 'b350a066007832578af6e2de31917f67';
-            const lat = 37.853; // Latitude de Taormina
-            const lon = 15.287; // Longitude de Taormina
-            const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric&lang=pt_br`;
 
-            try {
-                const response = await fetch(url);
-                if (!response.ok) throw new Error(`Erro: ${response.status}`);
-                const data = await response.json();
+  <!-- form -->
+  <div class="form">
+    <div class="form-container">
+      <div class="disclaimer">
+        <h1>Mais informações</h1>
+        <p class="about-event">
+          Envie suas dúvidas ou sugestões <br>
+          que entraremos em contato com você.
+        </p>
+      </div>
+      <div class="subscription-form">
+        <p>Preencha o formulário para receber mais detalhes sobre o hotel</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="number" placeholder="(DDD) XXXXX-XXXX" min="0">
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea placeholder="Insira sua mensagem"></textarea>
+          </div>
+          <input type="submit" class="btn" value="Quero receber mais informações">
+        </form>
+      </div>
+    </div>
+  </div>
 
-                const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+  <!-- apis -->
+  <div class="useful-info" id="useful-info">
+    <h2>Informações Úteis</h2>
+    <div class="info-grid">
+      <div class="weather">
+        <h3><i class="fas fa-cloud-sun"></i> Clima Atual em Taormina</h3>
+        <img id="weather-icon" alt="Weather Icon" style="display: none;">
+        <p id="weather-description"><i class="fas fa-info-circle"></i> Carregando...</p>
+        <p id="temperature"><i class="fas fa-thermometer-half"></i> Carregando...</p>
+      </div>
+      <div class="currency">
+        <h3><i class="fas fa-money-bill-wave"></i> Taxa de Câmbio</h3>
+        <p id="currency-info"><i class="fas fa-info-circle"></i> Carregando...</p>
+      </div>
+      <div class="map">
+        <h3><i class="fas fa-map-marker-alt"></i> Localização do Hotel</h3>
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
 
-                document.getElementById('weather-icon').src = iconUrl;
-                document.getElementById('weather-icon').style.display = 'block';
-                document.getElementById('weather-description').innerText = `Descrição: ${data.weather[0].description}`;
-                document.getElementById('temperature').innerText = `Temperatura: ${data.main.temp}°C`;
-            } catch (error) {
-                console.error('Erro ao buscar dados do clima:', error);
-                document.getElementById('weather-description').innerText = 'Erro ao buscar dados do clima.';
-                document.getElementById('temperature').innerText = '';
-            }
-        }
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#">Terms and Conditions</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookies</a>
+      <a href="#">Complaints</a>
+    </div>
+    <p>© Copyright White Lotus - 2024</p>
+  </footer>
 
-        async function fetchCurrency() {
-            const apiKey = '274298795adfe7c8d7b87f32';
-            const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
+  <!-- apis -->
+  <script>
+    async function fetchWeather() {
+      try {
+        const response = await fetch('/weather');
+        if (!response.ok) throw new Error(`Erro: ${response.status}`);
+        const data = await response.json();
 
-            try {
-                const response = await fetch(url);
-                if (!response.ok) throw new Error(`Erro: ${response.status}`);
-                const data = await response.json();
+        const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 
-                const rate = data.conversion_rates.EUR; // Exemplo de taxa de câmbio de USD para EUR
-                document.getElementById('currency-info').innerText = `1 USD = ${rate} EUR`;
-            } catch (error) {
-                console.error('Erro ao buscar dados de câmbio:', error);
-                document.getElementById('currency-info').innerText = 'Erro ao buscar dados de câmbio.';
-            }
-        }
+        document.getElementById('weather-icon').src = iconUrl;
+        document.getElementById('weather-icon').style.display = 'block';
+        document.getElementById('weather-description').innerText = `Descrição: ${data.weather[0].description}`;
+        document.getElementById('temperature').innerText = `Temperatura: ${data.main.temp}°C`;
+      } catch (error) {
+        console.error('Erro ao buscar dados do clima:', error);
+        document.getElementById('weather-description').innerText = 'Erro ao buscar dados do clima.';
+        document.getElementById('temperature').innerText = '';
+      }
+    }
 
-        function initMap() {
-            const location = { lat: 37.853, lng: 15.287 };
-            const map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: location,
-            });
+    async function fetchCurrency() {
+      try {
+        const response = await fetch('/currency');
+        if (!response.ok) throw new Error(`Erro: ${response.status}`);
+        const data = await response.json();
 
-            const marker = new google.maps.Marker({
-                position: location,
-                map: map,
-            });
-        }
+        const rate = data.conversion_rates.EUR;
+        document.getElementById('currency-info').innerText = `1 USD = ${rate} EUR`;
+      } catch (error) {
+        console.error('Erro ao buscar dados de câmbio:', error);
+        document.getElementById('currency-info').innerText = 'Erro ao buscar dados de câmbio.';
+      }
+    }
 
-        fetchWeather();
-        fetchCurrency();
-    </script>
+    async function fetchGoogleMapsApiKey() {
+      try {
+        const response = await fetch('/mapKey');
+        if (!response.ok) throw new Error(`Erro: ${response.status}`);
+        const data = await response.json();
+        const apiKey = data.apiKey;
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+      } catch (error) {
+        console.error('Erro ao buscar a chave da API do Google Maps:', error);
+      }
+    }
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA5WJ1FKCxijkpx08fy7jVyaBuuHxRKVc&callback=initMap" async defer></script>
+    function initMap() {
+      const location = {lat: 37.853, lng: 15.287};
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: location,
+      });
+
+      const marker = new google.maps.Marker({
+        position: location,
+        map: map,
+      });
+    }
+
+    fetchWeather();
+    fetchCurrency();
+    fetchGoogleMapsApiKey();
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA5WJ1FKCxijkpx08fy7jVyaBuuHxRKVc&callback=initMap"
+    async defer></script>
 </body>
+
 </html>
