@@ -14,9 +14,9 @@ console.log('GOOGLE_MAPS_API_KEY:', process.env.GOOGLE_MAPS_API_KEY);
 // Servir arquivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/weather', async (req, res) => {
+app.get('/api/weather', async (req, res) => {
   const apiKey = process.env.OPENWEATHERMAP_API_KEY;
-  console.log('/weather endpoint called');
+  console.log('/api/weather endpoint called');
   const lat = 37.853;
   const lon = 15.287;
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric&lang=pt_br`;
@@ -31,9 +31,9 @@ app.get('/weather', async (req, res) => {
   }
 });
 
-app.get('/currency', async (req, res) => {
+app.get('/api/currency', async (req, res) => {
   const apiKey = process.env.EXCHANGERATE_API_KEY;
-  console.log('/currency endpoint called');
+  console.log('/api/currency endpoint called');
   const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
 
   try {
@@ -46,9 +46,9 @@ app.get('/currency', async (req, res) => {
   }
 });
 
-app.get('/mapKey', (req, res) => {
+app.get('/api/mapKey', (req, res) => {
   const apiKey = process.env.GOOGLE_MAPS_API_KEY;
-  console.log('/mapKey endpoint called');
+  console.log('/api/mapKey endpoint called');
   res.json({ apiKey });
 });
 

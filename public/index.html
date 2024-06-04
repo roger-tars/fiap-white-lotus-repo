@@ -186,7 +186,7 @@
   <script>
     async function fetchWeather() {
       try {
-        const response = await fetch('/weather');
+        const response = await fetch('/api/weather');
         if (!response.ok) throw new Error(`Erro: ${response.status}`);
         const data = await response.json();
 
@@ -205,7 +205,7 @@
 
     async function fetchCurrency() {
       try {
-        const response = await fetch('/currency');
+        const response = await fetch('/api/currency');
         if (!response.ok) throw new Error(`Erro: ${response.status}`);
         const data = await response.json();
 
@@ -219,7 +219,7 @@
 
     async function fetchGoogleMapsApiKey() {
       try {
-        const response = await fetch('/mapKey');
+        const response = await fetch('/api/mapKey');
         if (!response.ok) throw new Error(`Erro: ${response.status}`);
         const data = await response.json();
         const apiKey = data.apiKey;
